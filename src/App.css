@@ -69,13 +69,10 @@ table {
   --xxlarge-font: 2.8rem;
 }
 
-* {
-  font-family: 'Roboto', sans-serif;
-}
-
 body {
   background-color: var(--background-color);
   color: var(--text-color);
+  font-family: 'Roboto';
 }
 
 h1 {
@@ -94,10 +91,9 @@ h1::before {
 }
 
 .container {
-  max-width: 1220px;
+  max-width: 60rem;
   padding: 0 var(--xsmall-spacing) 0 var(--xsmall-spacing);
   margin: 0 auto;
-  text-align: center;
 }
 
 .main {
@@ -105,5 +101,5 @@ h1::before {
   width: auto;
   height: 100vh;
   align-items: center;
-  justify-content: center;
+  margin-top: 112px;
 }

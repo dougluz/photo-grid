@@ -1,3 +1,4 @@
 import React from 'react'
+import { Feed } from '../../components/Feed'
 
-export const Home = () => <h1 className='center'>Welcome</h1>
+export const Home = () => <Feed />

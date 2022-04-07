@@ -1,11 +1,13 @@
 import { useEffect } from 'react'
 import './App.css'
+import { Header } from './components/Header'
 import { Home } from './pages/Home'
 
 const App = () => (
-  <div className="main">
+  <>
+    <Header />
     <Home />
-  </div>
+  </>
 )
 
 export default App

@@ -1,0 +1,12 @@
+.feed {
+  display: grid;
+  gap: var(--xxsmall-spacing);
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.feed-image {
+  width: 19.2rem;
+  height: 35rem;
+  object-fit: cover;
+}
