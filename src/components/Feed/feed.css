@@ -1,12 +1,15 @@
 .feed {
   display: grid;
   gap: var(--xxsmall-spacing);
-  grid-template-columns: repeat(3, 1fr);
+  /*grid-template-columns: repeat(3, 1fr);*/
+  grid-template-columns: repeat(auto-fill, [col-start] 19.2rem [col-end]);
   justify-items: center;
+  /*grid-auto-columns: minmax(100px, auto);*/
 }
 
 .feed-image {
   width: 19.2rem;
   height: 35rem;
   object-fit: cover;
+  
 }
