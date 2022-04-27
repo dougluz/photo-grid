@@ -11,9 +11,3 @@
   object-fit: cover;
 }
 
-.image-button {
-  position: relative;
-  left: 270px;
-  top: -40px;
-  font-size: 200%;
-}

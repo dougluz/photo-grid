@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { client } from '../../api/client'
 import './feed.css'
-import '../LikeButton/index'
+import { LikeButton } from '../LikeButton/index'
 
 
 export const Feed = () => {
@@ -28,7 +28,7 @@ export const Feed = () => {
     {photos.map(({ src }) => (
       <figure>
         <img className='feed-image' src={src.large} />
-        <ion-icon name="heart-outline" class='image-button'></ion-icon>
+        <LikeButton />
       </figure>
       // <img className='feed-image' src={src.large} />            
     ))}

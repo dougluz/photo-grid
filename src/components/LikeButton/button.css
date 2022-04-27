@@ -1,19 +1,22 @@
-.primary-button {
-  color: var(--text-color);
-  font-size: var(--xsmall-font);
-  background-color: var(--primary-color);
-  border: 0;
-  padding: var(--xxsmall-spacing);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  gap: 1px;
+.likebutton-outline {
+  position: relative;
+  left: 270px;
+  top: -40px;
+  font-size: 200%;
 }
 
-.primary-button:hover {
-  cursor: pointer;
+.likebutton-outline:hover {
+  position: relative;
+  left: 270px;
+  top: -40px;
+  font-size: 200%;
+  color: red;
 }
 
-.primary-button:active {
-  background-color: rgba(255, 5, 102, 0.8);
+.liked-button{
+  position: relative;
+  left: 270px;
+  top: -40px;
+  font-size: 200%;
+  color: red;
 }
