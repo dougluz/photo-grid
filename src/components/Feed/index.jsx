@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { client } from '../../api/client'
 import './feed.css'
+import { LikeButton } from '../LikeButton/index'
+
 
 export const Feed = () => {
   const [photos, setPhotos] = useState([])
@@ -24,7 +26,11 @@ export const Feed = () => {
 
   return <div className='container feed'>
     {photos.map(({ src }) => (
-      <img className='feed-image' src={src.large} />
+      <figure>
+        <img className='feed-image' src={src.large} />
+        <LikeButton />
+      </figure>
+      // <img className='feed-image' src={src.large} />            
     ))}
   </div>
 }

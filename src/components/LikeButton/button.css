@@ -1,0 +1,25 @@
+.likebutton-outline {
+  position: relative;
+  left: 270px;
+  top: -40px;
+  font-size: 200%;
+  visibility: visible;
+}
+
+.likebutton-outline:hover {
+  position: relative;
+  left: 270px;
+  top: -40px;
+  font-size: 200%;
+  color: red;
+  visibility: visible;
+}
+
+.liked-button{
+  position: relative;
+  left: 270px;
+  top: -40px;
+  font-size: 200%;
+  color: red;
+  visibility: visible;
+}
